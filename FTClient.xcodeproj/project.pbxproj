@@ -38,21 +38,21 @@
 		6ED15E6415235EDD0084FC3C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6ED15E6615235EDD0084FC3C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6ED15E6815235EDD0084FC3C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		6ED15E6C15235EDD0084FC3C /* FTClient-Info.plist */ = {isa = PBXFileReference; path = "FTClient-Info.plist"; sourceTree = "<group>"; };
+		6ED15E6C15235EDD0084FC3C /* FTClient-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FTClient-Info.plist"; sourceTree = "<group>"; };
 		6ED15E6E15235EDD0084FC3C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6ED15E7015235EDD0084FC3C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6ED15E7215235EDD0084FC3C /* FTClient-Prefix.pch */ = {isa = PBXFileReference; path = "FTClient-Prefix.pch"; sourceTree = "<group>"; };
-		6ED15E7315235EDD0084FC3C /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		6ED15E7215235EDD0084FC3C /* FTClient-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FTClient-Prefix.pch"; sourceTree = "<group>"; };
+		6ED15E7315235EDD0084FC3C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6ED15E7415235EDD0084FC3C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		6ED15E7715235EDD0084FC3C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		6ED15E7A15235EDD0084FC3C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		6ED15E7C15235EDD0084FC3C /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		6ED15E7C15235EDD0084FC3C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		6ED15E7D15235EDD0084FC3C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6ED15E8415235EDD0084FC3C /* FTClientTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FTClientTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6ED15E8515235EDD0084FC3C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		6ED15E8D15235EDD0084FC3C /* FTClientTests-Info.plist */ = {isa = PBXFileReference; path = "FTClientTests-Info.plist"; sourceTree = "<group>"; };
+		6ED15E8D15235EDD0084FC3C /* FTClientTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FTClientTests-Info.plist"; sourceTree = "<group>"; };
 		6ED15E8F15235EDD0084FC3C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6ED15E9115235EDD0084FC3C /* FTClientTests.h */ = {isa = PBXFileReference; path = FTClientTests.h; sourceTree = "<group>"; };
+		6ED15E9115235EDD0084FC3C /* FTClientTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTClientTests.h; sourceTree = "<group>"; };
 		6ED15E9215235EDD0084FC3C /* FTClientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTClientTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
