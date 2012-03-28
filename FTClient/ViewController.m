@@ -26,6 +26,40 @@
     // Release any retained subviews of the main view.
 }
 
+-(IBAction)onPostButtonClick{
+    [self log:@"onPostButtonClick"];
+    
+    [inputTweetTextField setText:@""];
+    
+}
+
+-(IBAction)onGetTimelineButtonClick{
+    [self log:@"onGetTimelineButtonClick"];
+
+    
+}
+
+-(IBAction)onInputTweetTextFieldChange{
+    [self log:@"onInputTweetTextFieldChange"];
+    
+    [[inputTweetTextField text] length];
+    int length=inputTweetTextField.text.length;
+    //length=[[inputTweetTextField text] length];
+    NSString *string=[NSString stringWithFormat:@"%d/%d",length,MAX_TWEET_COUNT];
+    countLabel.text=string;
+    //[countLabel setText:string];
+    //[timelineTextView setText:inputTweetTextField.text];
+    //[self log:inputTweetTextField.text];
+
+}
+
+-(void)log:(NSString *)log{
+    NSLog(log);
+}
+
+
+
+
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {

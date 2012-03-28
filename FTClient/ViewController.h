@@ -8,6 +8,24 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+#define MAX_TWEET_COUNT 140
+
+@interface ViewController : UIViewController{
+    IBOutlet UITextField *usernameTextField;
+    IBOutlet UITextField *passwdTextField;
+    IBOutlet UITextField *inputTweetTextField;
+    IBOutlet UIButton *postTweetButton;
+    IBOutlet UIButton *getTimelineButton;
+    IBOutlet UIProgressView *progressview;
+    IBOutlet UITextView *timelineTextView;
+    IBOutlet UILabel *countLabel;
+}
+-(IBAction)onPostButtonClick;
+-(IBAction)onGetTimelineButtonClick;
+-(IBAction)onInputTweetTextFieldChange;
+-(IBAction)log:(NSString *)log;
+
+
+
 
 @end

@@ -21,6 +21,7 @@
 		6ED15E8815235EDD0084FC3C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ED15E6615235EDD0084FC3C /* Foundation.framework */; };
 		6ED15E9015235EDD0084FC3C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6ED15E8E15235EDD0084FC3C /* InfoPlist.strings */; };
 		6ED15E9315235EDD0084FC3C /* FTClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED15E9215235EDD0084FC3C /* FTClientTests.m */; };
+		6ED15E9E152365530084FC3C /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED15E9D152365530084FC3C /* Util.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		6ED15E8F15235EDD0084FC3C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6ED15E9115235EDD0084FC3C /* FTClientTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTClientTests.h; sourceTree = "<group>"; };
 		6ED15E9215235EDD0084FC3C /* FTClientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTClientTests.m; sourceTree = "<group>"; };
+		6ED15E9C152365300084FC3C /* Util.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
+		6ED15E9D152365530084FC3C /* Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Util.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,8 @@
 				6ED15E7C15235EDD0084FC3C /* ViewController.h */,
 				6ED15E7D15235EDD0084FC3C /* ViewController.m */,
 				6ED15E6B15235EDD0084FC3C /* Supporting Files */,
+				6ED15E9C152365300084FC3C /* Util.h */,
+				6ED15E9D152365530084FC3C /* Util.m */,
 			);
 			path = FTClient;
 			sourceTree = "<group>";
@@ -264,6 +269,7 @@
 				6ED15E7115235EDD0084FC3C /* main.m in Sources */,
 				6ED15E7515235EDD0084FC3C /* AppDelegate.m in Sources */,
 				6ED15E7E15235EDD0084FC3C /* ViewController.m in Sources */,
+				6ED15E9E152365530084FC3C /* Util.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
